@@ -1,4 +1,3 @@
-/* Configurações Gerais e Reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +5,7 @@
 }
 
 body {
-    background-color: #f2f2f2; 
+    background-color: #f2f2f2;
 }
 
 a {
@@ -18,7 +17,6 @@ ul {
     list-style: none;
 }
 
-/* Container para centralizar o conteúdo */
 .container {
     width: 80%;
     margin: 0 auto;
@@ -49,12 +47,13 @@ ul {
 
 .navbar .agora a {
     font-weight: bold;
-    color: #e3a355; 
+    color: #e3a355;
 }
 
-/* Banner da Página Inicial */
+/* Banner Index */
 .banner {
-    background-image: url('file:///C:/Users/User/Desktop/aquatech-somente-html-main/public/assets/imgs/bg-jelly-fish-para-home.png'); /* Placeholder para as águas-vivas */
+    background-image: url('file:///C:/Users/User/Desktop/aquatech-somente-html-main/public/assets/imgs/bg-jelly-fish-para-home.png');
+    /* Placeholder para as águas-vivas */
     background-color: #050505;
     height: 450px;
     display: flex;
@@ -70,7 +69,7 @@ ul {
     font-weight: bold;
 }
 
-/* Seção de Missão, Visão e Valores (Social) */
+/* Missão, Visão e Valores*/
 .social {
     padding: 60px;
     background-color: #f2f2f2;
@@ -94,7 +93,8 @@ ul {
 }
 
 .box h4 {
-    color: #e6005a; /* Rosa das imagens */
+    color: #e6005a;
+    /* Rosa das imagens */
     font-size: 22px;
     margin-bottom: 15px;
 }
@@ -123,7 +123,7 @@ ul {
 }
 
 .valores-img {
-    background-image: url('file:///C:/Users/User/Desktop/aquatech-somente-html-main/public/assets/imgs/growth_color.png'); 
+    background-image: url('file:///C:/Users/User/Desktop/aquatech-somente-html-main/public/assets/imgs/growth_color.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 80px;
@@ -131,7 +131,7 @@ ul {
     margin: 0 auto 10px;
 }
 
-/* Telas de Login e Cadastro */
+/* Login e Cadastro */
 .login {
     height: 80vh;
     background-color: #050505;
@@ -154,9 +154,8 @@ ul {
     width: 450px;
     min-height: 300px;
     text-align: center;
-    
-}
 
+}
 
 .card h2 {
     color: #e6005a;
@@ -203,23 +202,7 @@ ul {
     background-color: #b30046;
 }
 
-/* Página Simulador */
-.simulador {
-    padding: 50px 0;
-    min-height: 70vh;
-}
-
-.simulador h2 {
-    color: #32b9cd;
-    margin-bottom: 20px;
-}
-
-.simulador p {
-    margin-bottom: 15px;
-    text-align: justify;
-}
-
-/* Footer */
+/* rodapé */
 .footer {
     background-color: #32b9cd;
     color: #fff;
@@ -238,4 +221,4 @@ ul {
 .footer .version {
     font-size: 12px;
     margin-top: 5px;
-}/* Adicionar aqui toda a estilização criada para sua aplicação. */
+}
