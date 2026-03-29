@@ -1,0 +1,241 @@
+/* Configurações Gerais e Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2; 
+}
+
+a {
+    text-decoration: none;
+    color: #e29231;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Container para centralizar o conteúdo */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Header */
+.header {
+    background-color: #000;
+    border-bottom: 2px solid #32b9cd;
+    padding: 15px 0;
+    color: #fff;
+}
+
+.header .titulo {
+    color: #32b9cd;
+    font-weight: 500;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #e3a355;
+}
+
+.navbar .agora a {
+    font-weight: bold;
+    color: #e3a355; 
+}
+
+/* Banner da Página Inicial */
+.banner {
+    background-image: url('file:///C:/Users/User/Desktop/aquatech-somente-html-main/public/assets/imgs/bg-jelly-fish-para-home.png'); /* Placeholder para as águas-vivas */
+    background-color: #050505;
+    height: 450px;
+    display: flex;
+    color: #ffffff;
+}
+
+.banner p {
+    font-size: 40px;
+    width: 300px;
+}
+
+.banner span {
+    font-weight: bold;
+}
+
+/* Seção de Missão, Visão e Valores (Social) */
+.social {
+    padding: 60px;
+    background-color: #f2f2f2;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+
+.box {
+    width: 30%;
+    padding: 20px;
+}
+
+.box img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.box h4 {
+    color: #e6005a; /* Rosa das imagens */
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.box p {
+    color: #444;
+    font-size: 15px;
+}
+
+.missao-img {
+    background-image: url('file:///C:/Users/User/Desktop/aquatech-somente-html-main/public/assets/imgs/planet-earth_color.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10px;
+}
+
+.visao-img {
+    background-image: url('file:///C:/Users/User/Desktop/aquatech-somente-html-main/public/assets/imgs/lightbulb_color.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10px;
+}
+
+.valores-img {
+    background-image: url('file:///C:/Users/User/Desktop/aquatech-somente-html-main/public/assets/imgs/growth_color.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10px;
+}
+
+/* Telas de Login e Cadastro */
+.login {
+    height: 80vh;
+    background-color: #050505;
+    background-image: url('file:///C:/Users/User/Desktop/aquatech-somente-html-main/public/assets/imgs/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login .container {
+    justify-content: center;
+}
+
+.card {
+    background-color: #ebebeb;
+    padding: 30px;
+    border-radius: 10px;
+    width: 450px;
+    min-height: 300px;
+    text-align: center;
+    
+}
+
+
+.card h2 {
+    color: #e6005a;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    text-align: left;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.campo span {
+    color: #e6005a;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.campo input {
+    padding: 10px;
+    border: 1.5px solid #32b9cd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.botao {
+    background-color: #e6005a;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.botao:hover {
+    background-color: #b30046;
+}
+
+/* Página Simulador */
+.simulador {
+    padding: 50px 0;
+    min-height: 70vh;
+}
+
+.simulador h2 {
+    color: #32b9cd;
+    margin-bottom: 20px;
+}
+
+.simulador p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Footer */
+.footer {
+    background-color: #32b9cd;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    flex-direction: column;
+}
+
+.footer h4 {
+    font-weight: 400;
+}
+
+.footer .version {
+    font-size: 12px;
+    margin-top: 5px;
+}/* Adicionar aqui toda a estilização criada para sua aplicação. */
